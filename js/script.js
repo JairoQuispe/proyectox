@@ -8,7 +8,3 @@ let menuscroll = () => {
         $navmenu.classList.remove("is-scrolling");
     }
 }
-;
-(()=>{
-
-})();
