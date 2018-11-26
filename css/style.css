@@ -16,14 +16,22 @@ body{
     font-weight: 500;
     position: relative;
 }
-h1{font-weight: 100}
+h1{
+    margin: 0;
+    font-size:1.7rem;
+    font-weight: 100}
 h1:after{
     content: 'X';
     font-weight: 500;
 }
+h2{
+    font-weight: 400;
+    font-size: 2.5rem;
+}
 p{color: #959094;}
 nav.main-menu{
     width: 100%;
+    padding: 6px 0;
     position: fixed;
     display: flex;
     align-items: center;
@@ -32,7 +40,7 @@ nav.main-menu{
     z-index: 99;
 }
 .is-scrolling{
-    background: linear-gradient(135deg, rgba(8, 34, 118, 0.8) 0%, rgb(250, 42, 143) 100%);
+    background: linear-gradient(135deg, rgb(12, 45, 134) 0%, rgb(250, 42, 156) 100%);
 }
 .main-menu ul{
     display: flex;
@@ -40,7 +48,7 @@ nav.main-menu{
     list-style: none;
 }
 .main-menu ul>li a{
-    padding: 6px 10px;
+    padding: 10px 10px;
     text-transform: uppercase;
     color:rgba(255,255,255,0.7);
 }
